@@ -1,0 +1,21 @@
+footer {
+    font-weight: bold;
+    text-align: center;
+    color: #00ff88;
+    padding: 20px;
+    font-size: 1em;
+    opacity: 0.7;
+    background-color: #15131a;
+    width: 100%
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    footer{
+        font-size: 0.8em;
+    }
+}

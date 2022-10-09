@@ -1,0 +1,51 @@
+.Header{
+    background-color: #00ff88;
+    box-shadow: 0 1px 0 #201b2c; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #201b2c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #201b2c;
+    position: relative;
+    font-size: 1.2em;
+    padding: 5px 5px 5px 0;
+}
+
+.menu ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #201b2c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
