@@ -26,7 +26,7 @@ form h2 {
     font-size: 1.4em;
 }
 
-input, textarea, button {
+input, textarea, .button {
     border: none;
     padding: 10px;
     outline: none;
@@ -34,7 +34,7 @@ input, textarea, button {
     resize: none;
 }
 
-#contact form button {
+#contact form .button {
     opacity: 0.9;
     background-color: #201b2c;
     color: #00ff88;
@@ -42,7 +42,7 @@ input, textarea, button {
     cursor: pointer;
 }
 
-#contact form button:hover {
+#contact form .button:hover {
     transform: scale(1.1);
 }
 
