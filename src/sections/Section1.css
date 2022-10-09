@@ -77,3 +77,9 @@ section#home {
         width: 30%;
     }
 }
+
+@media (max-height: 30px) {
+    .home-img{
+        display: none;
+    }
+}
