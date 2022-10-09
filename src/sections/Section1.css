@@ -78,7 +78,7 @@ section#home {
     }
 }
 
-@media (max-height: 30px) {
+@media (min-height: 900px) {
     .home-img{
         display: none;
     }
