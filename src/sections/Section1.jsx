@@ -5,7 +5,7 @@ function Section1() {
     return(
         <section id="home">
             <div className="home-info">
-                <h2>Olá, eu sou o Eduardo Oris</h2>
+                <h2>Olá, eu sou o <span className='name'>Eduardo Oris</span></h2>
                 <span className="home-position">Programador Front-End</span>
                 <span className="home-resume">HTML | CSS | JavaScript e React JS</span>
 

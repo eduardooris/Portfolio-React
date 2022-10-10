@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 .Header{
+    font-family: 'Dancing Script', cursive;
     background-color: #00ff88;
     box-shadow: 0 1px 0 #201b2c; 
     display: flex;
@@ -15,9 +19,8 @@
 .logo a {
     text-decoration: none;
     color: #201b2c;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
-    font-weight: bolder;
+    font-family: 'Lobster', cursive;
 }
 
 .menu a {

@@ -17,6 +17,10 @@ section#home {
     color: #00ff88;
 }
 
+.name{
+    color: white;
+}
+
 .home-info button {
     border: none;
     width: 150px;
