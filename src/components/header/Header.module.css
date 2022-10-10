@@ -3,7 +3,7 @@
     box-shadow: 0 1px 0 #201b2c; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px 20px;
     height: 80px;
     position: fixed;
@@ -48,4 +48,11 @@
 
 .menu a:hover::after {
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .Header{
+        justify-content: space-between;
+    }
+
 }
