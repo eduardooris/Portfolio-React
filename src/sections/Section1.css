@@ -82,6 +82,21 @@ section#home {
     }
 }
 
+@media (max-width: 867px) {
+    .home-info{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .home-img{
+        width: 30%;
+    }
+}
+
 @media (max-height: 600px) {
     .home-img{
         display: none;
